@@ -2,13 +2,14 @@
   "name": "skincancerlab",
   "version": "1.0.0",
   "description": "react boiler plate",
+  "postinstall": "cd client && npm install",
   "main": "index.js",
   "engine": {
     "node": "10.16.0",
     "npm": "6.9.0"
   },
   "scripts": {
-    "start": "(cd client && npm install) && node server/index.js",
+    "start": "node server/index.js",
     "backend": "nodemon server/index.js",
     "frontend": "npm run front --prefix client",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
