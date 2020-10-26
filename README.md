@@ -71,4 +71,16 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 ### Build the project
-After installing the libraries in the react app, 
+After installing the libraries in the react app.
+
+1. make dev.js file inside config folder 
+2. put mongoDB info into dev.js file 
+3. Type  " npm install " inside the root directory  ( Download Server Dependencies ) 
+4. Type " npm install " inside the client directory ( Download Front-end Dependencies )
+
+After thast then you can type "npm run dev"
+
+
+### Deployment
+1. You can upload the code to heroku and deploy there usign git
+2.  If you want to use docker containers, you can create an image
